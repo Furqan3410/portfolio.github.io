@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Markdown Editor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Online Markdown Editor</h1>
+    <div class="editor">
+      <textarea id="markdownInput" placeholder="Enter your Markdown text..."></textarea>
+      <div id="preview"></div>
+    </div>
+    <div class="controls">
+      <button onclick="toggleFullScreen()" class="btn">Full Screen</button>
+      <button onclick="clearEditor()" class="btn">Clear Editor</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.1.3/marked.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

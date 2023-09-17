@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px; /* Added max-width for responsiveness */
+    width: 90%; /* Added width for responsiveness */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .editor {
+    display: flex;
+  }
+  
+  textarea {
+    flex: 1;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #preview {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+    height: 300px;
+  }
+  
+  /* Added responsive styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    textarea, #preview {
+      height: 200px;
+    }
+  }
+  /* Previous CSS code ... */
+
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .toolbar button {
+    margin-right: 5px;
+    
+  }
+  
+  /* Added responsive styles */
+  @media screen and (max-width: 768px) {
+    /* Previous responsive styles ... */
+  
+    .toolbar button {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  }
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  /* Added responsive styles */
+  @media screen and (max-width: 768px) {
+    /* Previous responsive CSS code ... */
+  
+    .controls {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .controls button {
+      margin-bottom: 10px;
+      width: 100vw;
+      
+    }
+  }
+
+    
+  .btn{
+    width: 14vw;
+    height: 2.5vw;
+    color: #fff;
+    background-color: rgb(48, 126, 168);
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 15px;
+    
+  }
+  .btn:hover{
+    text-shadow: 4px 4px 50px rgb(255, 255, 255);
+    cursor: pointer;
+    width: 12vw ;
+    height: 3vw;
+    margin: 10px 20px;
+    background-color:  rgb(71, 149, 190);
+    transition: 1s;
+
+  }
