@@ -1,0 +1,50 @@
+
+  .main{
+    color: #2eb5b5 ;
+    text-shadow: #000000 1px 1px 6px;
+    margin-top: 10px;
+    vertical-align: middle;
+    text-align: center;
+    align-items: center;
+  }
+  .para{
+    text-align: center;
+    color: white;
+    font-size: 2.3rem;
+    text-shadow: #000000 1px 1px 4px;
+  }
+  .head{
+    font-size: 3rem;
+    /* line-gap-override: px; */
+    /* padding: 3px; */
+    text-shadow: #000000 0px 0px 10px;
+
+
+    text-align: center;
+  }
+  #collen{
+    color: white;
+    font-size: 3rem;
+    text-shadow: #000000 1px 1px 4px;
+  }
+  .right-content a img{
+    width: 20vw;
+    float: right;
+    margin: 10px 30px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+
+    border-radius: 10px;
+  }
+  
+  .right-content a  img:hover{
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+   margin: 15px 60px;
+   transition: 0.5s;
+   background-color: #fff;
+   padding: 25px;
+  }
+  #element{
+    text-align: center;
+  }

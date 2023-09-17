@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="Skills.css">
+  <link rel="stylesheet" href="Project.css">
+  <link rel="stylesheet" href="Freelancing.css">
+  <link rel="shortcut icon" href="pngegg.png" type="image/x-icon">
+  <link
+  href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+  rel="stylesheet"
+/>
+<title>Furqan Dev Portfolio</title>
+  
+</head>
+<body>
+  
+    <div id="cursor"></div>
+
+<header class="nav">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+      <a href="Index.html">Furqan Developer</a>
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+    <a href="#home" >Home </a>
+    <a href="#contact" >Contact</a>
+    <a href="#skills" >Skills</a>
+    <a href="#projects" >Projects</a>
+    <a href="#Freelancing" >Freelancing</a>
+  </div>
+</header>
+<section class="body-font main" id="home">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-center mb-16 md:mb-0 items-left text-left">
+      <h1 class=" mb-4  head text-left"><span class="text-6xl">Hi I am </span> 
+        <br class="hidden lg:inline-block text-4xl">Syed Furqan Ahmed
+      </h1>
+      <p class="mb-8 leading-relaxed para text-6xl">  <span id="element"></span></p>
+      
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="object-cover object-center rounded main-img" alt="hero" src="pngegg.png">
+    </div>
+  </div>
+</section>
+<hr id="hr">
+<!-- Contact -->
+<section class=" body-font" id="contact">
+  <div class="container px-5 py-14 mx-auto">
+    <div class="flex flex-col text-center w-full mb-4">
+      <h1 class=" title-font mb-4 heading">Contact Us</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed para">For your work</p>
+    </div>
+    <div class="lg:w-1/2 md:w-2/3 md:flex-col mx-auto">
+      <div class="flex flex-wrap -m-2">
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="name" class="leading-7 text-sm text-white">Name</label>
+            <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="email" class="leading-7 text-sm text-white">Email</label>
+            <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-900 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <div class="relative">
+            <label for="message" class="leading-7 text-sm text-white">Message</label>
+            <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-900 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+          </div>
+        </div>
+        <div class="p-2 w-full">
+          <button class="flex mx-auto text-black  border-0 py-2 px-8 focus:outline-none bg-white hover:bg-gray-700 hover:text-white transition:1s rounded text-lg" onclick="Myfunction()"  id="submit-btn">Submit</button>
+        </div>
+        <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+          <a class="text-white" href="https://mail.google.com/mail/u/0/#inbox" >syedfurqanahmed3410@email.com</a>
+          
+          <span class="inline-flex">
+            <a class="text-white">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-white">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-white">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-4 text-white">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr id="hr">
+<!-- Skills -->
+ <section class="skills" id="skills">
+  <div class="heading">
+    <h1>My </span> &lt;/Skills&gt;</h1>
+    </div>
+    <div class="content">
+  
+    <div class="skill-card">
+      <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;"><path  d="M4.136 3.012h15.729l-1.431 16.15-6.451 1.826-6.414-1.826-1.433-16.15zm5.266 7.302-.173-2.035 7.533.002.173-1.963-9.87-.002.522 5.998h6.835l-.243 2.566-2.179.602-2.214-.605-.141-1.58H7.691l.247 3.123L12 17.506l4.028-1.08.558-6.111H9.402v-.001z"></path></svg>
+      <h2>HTML</h2>
+      </div>
+    
+    <div class="skill-card">
+      <svg xmlns="http://www.w3.org/2000/svg"    viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;"><path d="M4.192 3.143h15.615l-1.42 16.034-6.404 1.812-6.369-1.813L4.192 3.143zM16.9 6.424l-9.8-.002.158 1.949 7.529.002-.189 2.02H9.66l.179 1.913h4.597l-.272 2.62-2.164.598-2.197-.603-.141-1.569h-1.94l.216 2.867L12 17.484l3.995-1.137.905-9.923z"></path></svg>
+      <h2>CSS</h2>
+      </div>
+    
+    <div class="skill-card">
+      <svg xmlns="http://www.w3.org/2000/svg"    viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;"><path d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.529.113-.484.687-.629 1.137-.495.293.09.563.315.732.676.775-.507.775-.507 1.316-.844-.203-.314-.304-.451-.439-.586-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754-.855.968-.608 2.655.427 3.354 1.023.765 2.521.933 2.712 1.653.18.878-.652 1.159-1.475 1.058-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832 1.305 1.316 4.568 1.249 5.153-.754.021-.067.18-.528.056-1.237l.034.049zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354 0 .924.047 1.772-.104 2.033-.247.517-.886.451-1.175.359-.297-.146-.448-.349-.623-.641-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137.641.383 1.502.507 2.404.305.588-.17 1.095-.519 1.358-1.059.384-.697.302-1.553.299-2.509.008-1.541 0-3.083 0-4.635l.003-.042z"></path></svg>
+     
+      <h2>JavaScript</h2>
+      </div>
+    
+    <div class="skill-card mb-6">
+      <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;"><path d="M18.5 9.51a4.22 4.22 0 0 1-1.91-1.34A5.77 5.77 0 0 0 12 6a4.72 4.72 0 0 0-5 4 3.23 3.23 0 0 1 3.5-1.49 4.32 4.32 0 0 1 1.91 1.35A5.77 5.77 0 0 0 17 12a4.72 4.72 0 0 0 5-4 3.2 3.2 0 0 1-3.5 1.51zm-13 4.98a4.22 4.22 0 0 1 1.91 1.34A5.77 5.77 0 0 0 12 18a4.72 4.72 0 0 0 5-4 3.23 3.23 0 0 1-3.5 1.49 4.32 4.32 0 0 1-1.91-1.35A5.8 5.8 0 0 0 7 12a4.72 4.72 0 0 0-5 4 3.2 3.2 0 0 1 3.5-1.51z"></path></svg>
+     
+      <h2>Tailwind CSS</h2>
+      </div>
+      
+    
+    <div class="skill-card mb-6">
+      <svg xmlns="http://www.w3.org/2000/svg"   height="" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform:  msFilter;"><path d="M18.002 2.997H5.999A3.011 3.011 0 0 0 2.997 6v12.002a3.012 3.012 0 0 0 3.002 3.001h12.003a3.012 3.012 0 0 0 3.001-3.001V6a3.012 3.012 0 0 0-3.001-3.003zm-1.64 12.647c-.152.36-.389.68-.693.927a3.594 3.594 0 0 1-1.206.614c-.49.151-1.074.229-1.75.229H7.888V6.909h5.103c.943 0 1.7.213 2.267.646.569.436.854 1.082.854 1.958 0 .528-.13.983-.389 1.357-.259.373-.63.664-1.111.868v.034c.642.135 1.137.438 1.464.912.327.473.493 1.069.493 1.789 0 .405-.078.788-.225 1.147l.02.021v.003zm-2.084-2.589c-.309-.282-.739-.419-1.297-.419H9.737v3.276h3.253c.554 0 .991-.144 1.298-.435.308-.289.464-.701.464-1.229-.005-.518-.156-.919-.464-1.193h-.014.004zm-.451-2.119c.299-.251.444-.613.444-1.084 0-.526-.131-.902-.397-1.116-.264-.214-.646-.326-1.146-.326H9.727v2.898h3.001c.436.001.81-.127 1.099-.372z"></path></svg>
+     
+      <h2>Bootsrap</h2>
+      </div>
+  
+    <div class="skill-card mb-6">
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter;"><path d="M3.345 6.935c-1.756 2.523-1.538 5.806-.196 8.487l.098.19c.021.04.041.082.063.121.012.024.026.047.039.069a7.842 7.842 0 0 0 .198.344l.073.12a9.14 9.14 0 0 0 .211.33 10.179 10.179 0 0 0 .221.319l.036.049c.063.088.129.175.196.261l.074.094.182.223.069.082c.082.097.167.194.252.289l.005.005c.004.004.007.006.01.011.083.091.17.181.256.271l.083.083.205.201.084.08c.092.087.186.172.281.256l.004.004.049.041c.083.073.169.145.255.215l.105.084a11.03 11.03 0 0 0 .565.424c.029.021.057.042.087.062l.024.017c.076.053.154.103.231.153.033.022.066.045.101.067a10.975 10.975 0 0 0 .886.509c.065.034.129.068.195.101l.045.022.08.039c.102.048.205.097.308.143l.066.029c.119.052.239.102.36.149l.088.035a13.895 13.895 0 0 0 .382.142c.125.044.252.085.38.124l.092.028c.128.039.256.085.39.11 8.492 1.548 10.958-5.102 10.958-5.102-2.072 2.698-5.748 3.41-9.232 2.618-.132-.03-.261-.071-.39-.109l-.097-.029a10.929 10.929 0 0 1-.755-.264l-.093-.036c-.12-.047-.239-.097-.356-.148l-.071-.031a11.932 11.932 0 0 1-.301-.14l-.087-.042c-.078-.038-.155-.079-.232-.118-.051-.027-.104-.053-.155-.082a8.294 8.294 0 0 1-.278-.156l-.094-.052a11.4 11.4 0 0 1-.363-.223l-.098-.065a10.557 10.557 0 0 1-.259-.172l-.083-.059c-.082-.058-.164-.116-.244-.176a11.921 11.921 0 0 1-.328-.255l-.099-.079c-.092-.076-.184-.152-.274-.231a12.01 12.01 0 0 1-.319-.288c-.028-.026-.055-.051-.081-.078a7.985 7.985 0 0 1-.208-.203l-.081-.081a10.76 10.76 0 0 1-.254-.269l-.012-.012a11.75 11.75 0 0 1-.258-.293l-.067-.081a10.313 10.313 0 0 1-.254-.313 11.855 11.855 0 0 1-.215-.286C3.864 11.825 3.17 8.186 4.715 5.198"></path><path d="M8.794 4.809c-1.27 1.827-1.2 4.273-.21 6.205.166.324.353.639.561.938.191.273.401.597.654.816.092.101.187.199.284.295l.076.074c.094.092.19.182.291.271l.011.01.003.002c.111.097.224.19.34.281l.078.06a8.281 8.281 0 0 0 .366.268c.053.037.108.072.161.107.026.017.051.035.078.051a7.14 7.14 0 0 0 .301.184c.076.044.155.087.233.13.026.015.055.029.082.043.055.028.108.057.163.083a9.645 9.645 0 0 0 .365.171l.074.031c.093.039.186.077.281.113l.117.044c.086.032.171.06.256.089l.117.037c.121.038.243.085.37.107 6.556 1.086 8.068-3.961 8.068-3.961-1.364 1.964-4.006 2.902-6.825 2.17a7.866 7.866 0 0 1-.743-.232l-.118-.043a7.629 7.629 0 0 1-.353-.145 8.79 8.79 0 0 1-.344-.159c-.057-.028-.113-.058-.17-.087l-.099-.051a9.352 9.352 0 0 1-.533-.313l-.08-.053a7.65 7.65 0 0 1-.602-.435c-1.234-.974-2.213-2.306-2.678-3.815-.488-1.566-.382-3.323.462-4.75"></path><path d="M13.379 3.221c-.749 1.102-.823 2.469-.304 3.686.548 1.292 1.671 2.304 2.981 2.785a3.85 3.85 0 0 0 .234.079c.077.024.152.053.233.067 3.62.699 4.601-1.857 4.862-2.234-.86 1.239-2.306 1.536-4.078 1.105a5.403 5.403 0 0 1-.939-.344 5.39 5.39 0 0 1-.895-.545c-1.585-1.204-2.573-3.501-1.536-5.372"></path></svg>
+     
+      <h2>Jquery</h2>
+      </div>
+    
+   
+    
+  </div>
+         
+</section>
+<hr id="hr">
+<!-- Projects-->
+<section id="projects">
+  <h1>Completed <span>Projects</span></h1>
+  <div class="project-cards">
+    <div class="project-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhzQ_Nrwds8hPI4HVHp7Dq21eATy3NYJKVdg&usqp=CAU" alt="Project 1">
+      <div class="project-info">
+        <h3>Weather App</h3>
+        <a href="Weather App/weather-app.html" ><i class='bx bx-link'></i></a>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="screencapture-file-D-My-projects-Furqan-dev-Portfolio-Expense-Tracker-index-html-2023-07-21-17_10_23.png" alt="Project 3">
+      <div class="project-info">
+        <h3>Expense Tracker</h3>
+        <a href="Expense Tracker/index.html" ><i class='bx bx-link'></i></a>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="screencapture-file-D-My-projects-Furqan-dev-Portfolio-To-do-list-app-index-html-2023-07-21-17_15_48.png" alt="Project 3">
+      <div class="project-info">
+        <h3>To do List app</h3>
+        <a href="To do list app/index.html" ><i class='bx bx-link'></i></a>
+      </div>
+      </div>
+    
+    <div class="project-card">
+      <img src="screencapture-file-D-My-projects-Spotify-Clone-index-html-2023-07-15-18_33_36.png" alt="Project 2">
+      <div class="project-info">
+        <h3>Spotify Clone</h3>
+        
+        <a href="Spotify Clone/index.html" ><i class='bx bx-link'></i></a>
+      </div>
+    </div>
+    
+    <div class="project-card">
+      <img src="screencapture-file-D-My-projects-Global-socks-frontend-html-2023-07-14-17_30_31.png" alt="Project 3">
+      <div class="project-info">
+        <h3>E-commerce Store </h3>
+        <a href="Global socks/frontend.html" ><i class='bx bx-link'></i></a>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="screencapture-file-D-My-projects-Furqan-dev-Portfolio-Quiz-Application-index-html-2023-07-22-02_56_10.jpg" alt="Project 3">
+      <div class="project-info">
+        <h3>Quiz Web App</h3>
+        <a href="Quiz Application/index.html" ><i class='bx bx-link'></i></a>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="screencapture-file-D-My-projects-Furqan-dev-Portfolio-Task-Manager-index-html-2023-07-21-17_13_49.png" alt="Project 3">
+      <div class="project-info">
+        <h3>Task Manager</h3>
+        <a href="Task Manager/index.html" ><i class='bx bx-link'></i></a>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqNHw6DaDmrGjL9zotU2ZNldvRJVVLlfKxoQ&usqp=CAU" alt="Project 3">
+      <div class="project-info">
+        <h3>Snake Game</h3>
+        <a href="snake game/snakegame.html" ><i class='bx bx-link'></i></a>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="screencapture-file-D-My-projects-Furqan-dev-Portfolio-Fitness-Finder-index-html-2023-07-21-17_10_58.png" alt="Project 3">
+      <div class="project-info">
+        <h3>Fitness Finder</h3>
+        <a href="Fitness Finder/index.html" ><i class='bx bx-link'></i></a>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="screencapture-file-D-My-projects-Furqan-dev-Portfolio-Book-Search-Website-index-html-2023-07-22-02_33_46-removebg-preview.jpg" alt="Project 3">
+      <div class="project-info">
+        <h3>Book Search app</h3>
+        <a href="Book Search Website/index.html" ><i class='bx bx-link'></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<hr id="hr">
+<!-- Freelancing -->
+  <section class="body-font main text-center" id="Freelancing">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class=" mb-4  head " id="head">I am a Freelancer also
+          
+            <br>
+            I offer my services on<span id="collen">:</span>
+        </h1>
+        <p class="mb-8 leading-relaxed para text-center">  <span id="frelancing" class="text-center"></span></p>
+        
+    </div>
+    <div class="right-content">
+        <div class="fiverr">
+    <a href="https://www.fiverr.com/s/9AVgbx"  
+     class="fiverr" ><img class="larger" src="https://cdn.worldvectorlogo.com/logos/fiverr-2.svg" alt="Fiverr logo vector"></a>
+    </div>
+    <div class="upwork">
+     <a href="https://www.upwork.com/ab/account-security/reenter-password?szRedir=https%3A%2F%2Fwww.upwork.com%2Ffreelancers%2Fsettings%2FcontactInfo">
+     <img class="larger" src="https://cdn.worldvectorlogo.com/logos/upwork.svg" alt="Upwork logo vector"> 
+    </a>
+</div>
+<div class="freelancer"></div>
+<a href="https://www.freelancer.com/u/syedfurqan3410" >
+<img class="larger" src="https://cdn.worldvectorlogo.com/logos/freelancer.svg" alt="Freelancer logo vector">
+</a>
+</div>
+</div>
+    
+  </section>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    
+    var typed = new Typed('#frelancing', {
+      strings: ['Fiverr',',Upwork', 'and Freelancer'],
+      typeSpeed: 100,  
+    });
+  </script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed('#element', {
+    strings: ['Web Designer',',UI/UX Designer', 'And Web Developer','Web Designer',',UI/UX Designer', 'And Web Developer','Web Designer',',UI/UX Designer', 'And Web Developer','Web Designer',',UI/UX Designer', 'And Web Developer','Web Designer',',UI/UX Designer', 'And Web Developer'],
+    typeSpeed: 100, Infinity 
+  });
+</script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+
+/* Projects Section */
+#projects{
+  padding: 3vw 0px;
+  width: 100%;
+}
+#projects h1{
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 6vw 0px;
+  text-shadow: #fff 0 0 5px;
+  text-align: center;
+}
+.projects{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+#projects h1 span
+{
+  text-shadow: #fff 0 0 5px;
+  color: #7680d9;
+  font-weight: bold;
+  /* margin: 15px 0px; */
+}
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 3rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0px 4vw; */
+  align-content: center;
+  text-align: center;
+  transition: all ease 1s;
+
+}
+.project-card{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+transition: all ease 1s;
+
+
+}
+.project-card:hover{
+  scale: 1.1;
+}
+.project-card img{
+  opacity: 0.5;
+}
+
+/* 
+.project-card:hover{
+  margin-top: -40px;
+  transition: all ease 1s;
+} */
+
+.project-info h3 {
+  margin: 10px 0px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.project-info .bx{
+  color: #fff;
+  font-size: 1.7rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0.8rem;
+  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+.project-info .bx:hover{
+  transform: scale(1.2);
+  color:#7680d9;
+  background: #000000;
+  box-shadow: 0 0 3rem #7680d9;
+}
+.project-info{
+  position: absolute;
+  top: 50%;
+  left: 35%;
+/* transform: translateX(-50%); */
+transform: translateY(-50%);
+  align-items: center;
+  text-align: center;
+}
+
+.project-card img{
+  width: 40vw;
+  height: 20vw;
+}
+
+.project-card5 .project-info h3{
+  color: #000000;
+  margin: 10px 0px;
+  font-size: 1.5rem;
+ 
+  text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+
+
+.project-info a:hover {
+  background-color: #555;
+}
+
+
+@media (max-width:843px){
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  } 
+  
+  .project-info .bx{
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0.8rem;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+  }
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Poppins:wght@300&family=Ubuntu&display=swap');
+#skills{
+  padding: 7vw 0px;
+}
+#skills .heading h1{
+    text-align: center;
+    margin: 50px 0px ; 
+    font-size: 3.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: #000000 1px 1px 6px;
+    
+
+
+}  
+#skills .heading h1 span{
+    color:#7680d9;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:2.5rem;
+  overflow: hidden;
+
+  
+ 
+}
+.skill-card{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+ flex-direction: column;
+  cursor: pointer;
+  /* overflow-x: hidden; */
+  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.skill-card svg{
+  width: 15vw;
+}
+.skill-card:hover path{
+      fill: #0d1d79;
+      
+      color: #0E1853;
+      transition: 0.4s ease-in-out;
+      
+    }
+    .skill-card:hover{
+  filter: drop-shadow(10px 10px 30px white ) ;
+  text-shadow: 1px 1px 30px rgb(255, 255, 255);
+  scale: 1.2;
+}
+.skill-card h2{
+  font-size: 1.5rem;
+  text-shadow: rgb(255, 255, 255) 1px 1px 10px;
+}
+
+/* .skill-card svg:hover{
+  border-radius: 1rem solid;
+  transform: scale(1.05);
+  
+} */
+
+
+@media (max-width: 520px){
+  .content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2.5rem;
+    overflow: hidden;
+  }
+}
+@media (max-width: 337px){
+  .skill-card svg{
+    width: 90;
+  }
+
+}
