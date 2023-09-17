@@ -1,0 +1,139 @@
+body {
+  margin: 0%;
+  z-index: 0;
+  padding: 0%;
+  background-color: #ffd4d5;
+}
+.navbar {
+  width: 100%;
+  background-color: rgb(12, 3, 48);
+  position: sticky;
+  top: 0%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}
+.nav-item a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.nav-item a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(12, 3, 48);
+  transition: 0.75s;
+}
+header{
+  background-color: rgb(3, 3, 83);
+  color: white;
+  position: sticky;
+  top: 0%;
+}
+header button{
+  color: black;
+
+}
+header span{
+  color: white;
+}
+.nav-text:hover{
+  color: rgb(224, 224, 224);
+  font-size: 1.2rem;
+  transition: 0.5s;
+  
+}
+.content h2 {
+  background-image: url("bg.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+  border: 1px solid black;
+  height: 250px;
+  -webkit-text-stroke: #000 2px;
+  mask-repeat: 0;
+  font-family: monospace;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.card {
+  background-color: rgb(255, 255, 255);
+}
+.main {
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  justify-content: space-around;
+  text-align: center;
+}
+.card:hover {
+  box-shadow: 10px 10px 12px 13px rgba(128, 128, 128, 0.53);
+  transition: 1s;
+  margin-top: -10px;
+}
+.btn .btn-buy {
+  background-color: rgb(35, 188, 35);
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 40px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+font-size: 1rem;
+  
+  /* justify-content: space-around; */
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+.btn .btn-cart {
+  background-color: rgb(255, 162, 0);
+  color: white;
+  padding: 5px 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  height: 40px;
+  font-size: 1rem;
+  
+  /* justify-content: space-around; */
+}
+.btn .btn-buy:hover{
+    background-color: black;
+    border: 4px solid  rgb(35, 188, 35);
+    transition: 1s;
+    font-weight: bold;
+    width: 12vw;
+    /* height: 5vw; */
+    text-align: center;
+}
+.btn .btn-cart:hover{
+    background-color: black;
+    border: 4px solid  rgb(255, 162, 0);
+    transition: 1s;
+    font-weight: bold;
+    width: 13vw;
+    /* height: 5vw; */
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+body{
+    margin: 0%;
+    z-index: 0;
+    padding: 0%;
+    align-items: center;
+    background: rgb(255,221,227);
+background: linear-gradient(90deg, rgba(255,221,227,1) 28%, rgba(126,115,115,1) 100%);
+    text-align: center;
+    font-size: 1.2rem;
+}
+main{
+  margin: 10px 40px;
+
+}
+header{
+  background-color: rgb(3, 3, 83);
+  color: white;
+  position: sticky;
+  top: 0%;
+}
+header button{
+  color: black;
+
+}
+header span{
+  color: white;
+}
+.nav-text:hover{
+  color: rgb(224, 224, 224);
+  font-size: 1.2rem;
+  transition: 0.5s;
+  
+}
+.content{
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-weight: bold;
+    margin: 10px 60px;
+
+  }
+footer {
+    background-color: #f2f2f2;
+    color: #555;
+    font-size: 12px;
+    text-align: center;
+    position: static;
+    padding: 20px 0px;
+
+    bottom: 0%;
+    width: 100%;
+  }
+  
+  

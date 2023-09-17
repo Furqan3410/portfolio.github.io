@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout Page</title>
+	<link rel="stylesheet" type="text/css" href="checkout.css">
+	<script src="https://kit.fontawesome.com/7c9a559f73.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script src="checkout.js"></script>
+
+    <link rel="stylesheet" href="checkout.js">
+</head>
+<body>
+    <header class="text-white-900 body-font ">
+		<div class="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
+		  <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+			<IMG src="Capture1.PNG" class="w-14 h-14 text-white p-2  rounded-full" viewBox="0 0 24 24">
+			  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+			</IMG>
+			<span class="ml-3 text-xl">Global Socks</span>
+		  </a>
+		  <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+			<a class="mr-5 hover:text-white-900 cursor-pointer nav-text" href="frontend.html"><i class="fa fa-home"></i> Home</a>
+			<a class="mr-5 hover:text-white-900 cursor-pointer nav-text" href="Shop Now.html"><i class="fa fa-shopping-basket"></i> Shop</a>
+			<a class="mr-5 hover:text-white-900 cursor-pointer nav-text" href="about.html"><i class="fa fa-globe"></i> About</a>
+			<a class="mr-5 hover:text-white-900 cursor-pointer nav-text" href="Contact.html"><i class="fa fa-phone"></i> Contact</a>
+			<a class="mr-5 hover:text-white-900 cursor-pointer nav-text" href="cart.html"><i class="fa fa-shopping-cart"></i> View cart</a>
+		  </nav>
+		  
+		</div>
+	  </header>
+	<div class="heading">
+		<h1>Checkout Page</h1>
+	</div>
+	<main>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="address">Address:</label>
+			<textarea id="address" name="address" required></textarea>
+			<label for="credit-card">Credit Card:</label>
+			<input type="text" id="credit-card" name="credit-card" required>
+			<label for="expiry-date">Expiry Date:</label>
+			<input type="text" id="expiry-date" name="expiry-date" required>
+			<label for="cvv">CVV:</label>
+			<input type="text" id="cvv" name="cvv" required>
+			<button type="reset"  class="btn">Reset</button>
+			<button type="submit" class="btn">Submit Order</button>
+		</form>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Global socks </p>
+	</footer>
+</body>
+</html>
